@@ -1,0 +1,8 @@
+Test: 
+1. Charger connected 25.6V: Powered ON, No issues detected. D5 ON, D8 OFF. Output load voltage 25. 
+2. Load connected Switch ON connected: Detected 25V.However, output current not delivered (if output load turned ON, then load voltage drops)
+3. Battery connected: 21V battery. D5 blinking, D8 fixed.Load Detected 21V
+
+Change log:
+1. Change output labes: Battery <> Load
+2. Change Q10 to NMOS
